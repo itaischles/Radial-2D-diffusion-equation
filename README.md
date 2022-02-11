@@ -2,7 +2,10 @@
 Numerically solve the radial 2D diffusion equation to simulate exciton decay in TAM experiment
 For more information, including mathematical derivation see "Summary.docx"
 
-Normalized $`a^2+b=\frac{a}{b}`$
+Normalized
+'''math
+a^2+b=\frac{a}{b}
+'''
 Here are some test results with differetn values of the diffusion coefficient, D, and decay constant k:
 
 D=5, k=0: (extremely high diffusion with no species decay to ground state, unrealistic):
