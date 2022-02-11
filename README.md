@@ -2,10 +2,8 @@
 Numerically solve the radial 2D diffusion equation to simulate exciton decay in TAM experiment
 For more information, including mathematical derivation see "Summary.docx"
 
-Normalized
-'''math
-a^2+b=\frac{a}{b}
-'''
+Normalized DeltaA (shown as a dashed line in the next figures) is approximated by integrating the number of species at each time step and convolving with a Gaussian "probe" profile (same as the pump in these examples).
+
 Here are some test results with differetn values of the diffusion coefficient, D, and decay constant k:
 
 D=5, k=0: (extremely high diffusion with no species decay to ground state, unrealistic):
